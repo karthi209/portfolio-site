@@ -22,6 +22,9 @@ const Navbar = () => {
           <li className={selectedItem === 'project' ? 'selected' : ''} onClick={() => handleItemClick('project')}>
             <Link to="/Project">project</Link>
           </li>
+          <li className={selectedItem === 'blog' ? 'selected' : ''} onClick={() => handleItemClick('blog')}>
+            <Link to="/Blog">blog</Link>
+          </li>
         </ul>
       </nav>
     </>

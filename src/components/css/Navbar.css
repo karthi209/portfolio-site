@@ -1,19 +1,19 @@
 .navbar {
   display: flex;
-  margin: 1.5% auto;
-  max-width: 90%;
-  justify-content: space-between;
-  font-family: "Anek Latin", sans-serif;
-  font-size: medium;
-  font-weight: bold;
+  margin: 0.5% auto;
+  max-width: 70%;
+  justify-content: right;
+  font-family: "JetBrains Mono NL", monospace;
+  font-size: large;
+  font-weight: normal;
   padding-left: 27px;
-  padding-right: 27px;
+  padding-right: 100px;
+  align-items: right;
 }
 
 .navbar-links {
   display: flex;
   list-style: none;
-  /* margin-right: 30px; */
   margin-top: 1.2rem;
   margin-bottom: 0.8rem;
 }
@@ -25,36 +25,11 @@
 }
 
 .navbar-links li:hover {
-  background-color: whitesmoke;
   transform: scale(1.1);
 }
 
 .selected {
-  background-color: whitesmoke; /* Color of the selected item */
-}
-
-.compareBox {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #000;
-  max-width: 90%;
-  margin: auto;
-  min-height: 75vh;
-}
-
-.compareBox h3 {
-  font-size: 24px;
-}
-
-.compareBox p {
-  padding-bottom: 20px;
-}
-
-.itemCompare {
-  width: 100%;
-  max-width: 50%;
+  background-color: darkcyan; /* Color of the selected item */
 }
 
 .navbar-links a {
@@ -63,10 +38,13 @@
   font-size: 1rem;
 }
 
-.styleMenu {
-  display: flex;
-  justify-content: right;
-  
+.coolPara {
+  padding-left: 800px;
+  padding-top: 100px;
+  margin-right: 10%;
+  font-size: 20px;
+  color: whitesmoke;
+  font-family: "JetBrains Mono NL", monospace;
 }
 
 @media only screen and (max-width: 600px) {

@@ -14,7 +14,6 @@ function App() {
         <Route path = "/" element={<Home/>} />
         <Route path = "/projects" element={<Projects/>} />        
       </Routes>
-      <h3>karthikeyan manimaran</h3>
     </>
 
   );
