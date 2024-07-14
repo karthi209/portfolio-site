@@ -10,7 +10,8 @@ const Home = () => {
         </div>
       </div>
       <div className="split left">
-        <p className="centered"> my bio </p>
+        <p className="nameFunct">Karthikeyan Manimaran</p>
+        <p className="roleFunct">DevOps Engineer, Web Developer plus a little bit of hardware programming :)</p>
       </div>
     </>
   );
